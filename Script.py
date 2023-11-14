@@ -4,7 +4,7 @@ class script(object):
 ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
 ɪ ᴀᴍ ᴘᴍ sʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ
 
-ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/Master_Jiraya">🄼𝗮𝘀𝘁𝗲𝗿 𝗝𝗶𝗿𝗮𝘆𝗮</a></b> 😏</b>"""
+ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/ANKIT3690">ANKIT</a></b> 😏</b>"""
 
     
     HELP_TXT = """<b>Hᴇʏ {}
@@ -12,15 +12,13 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>
  🤖 ᴍʏ ɴᴀᴍᴇ : {}
- 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/Master_Jiraya'>🄼𝗮𝘀𝘁𝗲𝗿 𝗝𝗶𝗿𝗮𝘆𝗮 🇮🇳</a>
- 📚 ʟɪʙʀᴀʀʏ : Who Care 
- 📝 ʟᴀɴɢᴜᴀɢᴇ : Hindi
- ♻️ ᴅᴀᴛᴀ ʙᴀsᴇ : Free wala
- 📡 ʜᴏsᴛᴇᴅ ᴏɴ  : My PC
+ 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/ANKIT3690'>ANKIT</a>
+ 📚 Group : @thewarriorsreal
+ 📝 Channel : @defenderofthemultiverse
  🥶 ʙᴜɪʟᴅ sᴛᴀᴛᴜs : Offline</b>"""
 
     STREAM_CAP = """
-    🇮🇳 ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ 🇮🇳"""
+    @thewarriorsreal"""
 
    
     SOURCE_TXT = """Nai Milega"""
@@ -128,9 +126,15 @@ Nᴀᴍᴇ - {}"""
     CUDNT_FND = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏᴛʜɪɴɢ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}
 ᴅɪᴅ ʏᴏᴜ ᴍᴇᴀɴ ᴀɴʏ ᴏɴᴇ ᴏꜰ ᴛʜᴇꜱᴇ?"""
 
-    I_CUDNT = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ 😕
+    I_CUDNT = """<b>Requesting like this leads to wait for a while
+Eg: 
+1. Avengers Infinity War Movie 
+ (❌This Is The Wrong Way)
+"Movie" Don't add this word.
+2. Avengers Infinity War 
+(✅Correct Way to request)
 
-ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😃
+Don't either write word movie, quality nor language.
 
 ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 
@@ -138,7 +142,15 @@ Nᴀᴍᴇ - {}"""
 
 ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
 
-ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
+How to request?: Requesting like this leads to wait for a while
+Eg: 
+1. Avengers Infinity War Movie 
+ (❌This Is The Wrong Way)
+"Movie" Don't add this word.
+2. Avengers Infinity War 
+(✅Correct Way to request)
+
+Don't either write word movie, quality nor language.
 
 🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
 
@@ -203,7 +215,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><a href=https://t.me/Happy_Hour_Friends>{file_name}</a></b>"""
+    CAPTION = """<b><a href=https://t.me/thewarriorsreal>{file_caption}</a></b>"""
 
     IMDB_TEMPLATE_TXT = """🍿 Title: <a href={url}>{title}</a>\n🎃 Genres: {genres}\n📅 Year: <a href={url}/releaseinfo>{year}</a>\n⭐ Rating: <a href={url}/ratings>{rating}</a> / 10\n🔉 Audio: हिंदी + English\n\n📕 Story: """
     
@@ -233,7 +245,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
 📅 Dᴀᴛᴇ : <code>{}</code>
 ⏰ Tɪᴍᴇ : <code>{}</code>
-🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
+🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/UTTARPRADESH</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
     LOGO = """𝑺𝒕𝒂𝒓𝒕𝒊𝒏𝒈.......🥵"""
