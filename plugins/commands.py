@@ -234,7 +234,7 @@ async def start(client, message):
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
             await message.reply_text(
-                text=f"<b>आप सफलतापूर्वक वेरिफाई हो गए हैं !\nअब आप अनलिमिटेड मूवी ले सकते है।</b>",
+                text=f"<b>आप सफलतापूर्वक वेरिफाई हो गए हैं !\n\nअब आप अनलिमिटेड मूवी ले सकते है।</b>",
                 protect_content=True
             )
             await verify_user(client, userid, token)
@@ -314,7 +314,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>पहले 15 सेकंड का वेरिफिकेशन जरूरी हे !\nउसके बाद अप अनलिमिटेड मूवी ले सकते है ।</b>",
+                    text="<b>पहले 15 सेकंड का वेरिफिकेशन जरूरी हे !\n\nउसके बाद अप अनलिमिटेड मूवी ले सकते है । ✅</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
