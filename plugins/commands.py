@@ -150,7 +150,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                          InlineKeyboardButton("🎁 Oɴʟɪɴᴇ Wᴀᴛᴄʜ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🎁", callback_data=f'generate_stream_link:{file_id}')
+                          InlineKeyboardButton("🌈  Wᴀᴛᴄʜ Oɴʟɪɴᴇ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🌈", callback_data=f'generate_stream_link:{file_id}')
                          ]
                         ]
                     )
@@ -166,7 +166,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                          InlineKeyboardButton("🎁 Oɴʟɪɴᴇ Wᴀᴛᴄʜ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🎁", callback_data=f'generate_stream_link:{file_id}')
+                          InlineKeyboardButton("🌈  Wᴀᴛᴄʜ Oɴʟɪɴᴇ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🌈", callback_data=f'generate_stream_link:{file_id}')
                          ]
                         ]
                     )
@@ -327,7 +327,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                      InlineKeyboardButton("🎁 Oɴʟɪɴᴇ Wᴀᴛᴄʜ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🎁", callback_data=f'generate_stream_link:{file_id}')
+                      InlineKeyboardButton("🌈  Wᴀᴛᴄʜ Oɴʟɪɴᴇ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🌈", callback_data=f'generate_stream_link:{file_id}')
                      ]
                     ]
                 )
@@ -370,7 +370,7 @@ async def start(client, message):
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                 ]]
                 await message.reply_text(
-                    text="<b>You are not verified !\nKindly verify to continue !</b>",
+                    text="<b>पहले 15 सेकंड का वेरिफिकेशन जरूरी हे !\n\nफिर अनलिमिटेड मूवी ले सकते है । ✅</b>",
                     protect_content=True,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -382,7 +382,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                      InlineKeyboardButton("🎁 Oɴʟɪɴᴇ Wᴀᴛᴄʜ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🎁", callback_data=f'generate_stream_link:{file_id}')
+                      InlineKeyboardButton("🌈  Wᴀᴛᴄʜ Oɴʟɪɴᴇ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🌈", callback_data=f'generate_stream_link:{file_id}')
                      ]
                     ]
                 )
@@ -423,7 +423,7 @@ async def start(client, message):
             InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
         ]]
         await message.reply_text(
-            text="<b>You are not verified !\nKindly verify to continue !</b>",
+            text="<b>पहले 15 सेकंड का वेरिफिकेशन जरूरी हे !\n\nफिर अनलिमिटेड मूवी ले सकते है । ✅</b>",
             protect_content=True,
             reply_markup=InlineKeyboardMarkup(btn)
         )
@@ -436,7 +436,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-              InlineKeyboardButton("🎁 Oɴʟɪɴᴇ Wᴀᴛᴄʜ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🎁", callback_data=f'generate_stream_link:{file_id}')
+              InlineKeyboardButton("🌈  Wᴀᴛᴄʜ Oɴʟɪɴᴇ / Fᴀꜱᴛ Dᴏᴡɴʟᴏᴀᴅ 🌈", callback_data=f'generate_stream_link:{file_id}')
              ]
             ]
         )
