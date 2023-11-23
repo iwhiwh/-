@@ -322,7 +322,7 @@ async def languages_cb_handler(client: Client, query: CallbackQuery):
     )
     req = query.from_user.id
     offset = 0
-    btn.append([InlineKeyboardButton(text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ​↭", callback_data=f"fl#homepage#{key}")])
+    btn.append([InlineKeyboardButton(text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ↭", callback_data=f"fl#homepage#{key}")])
 
     await query.edit_message_reply_markup(InlineKeyboardMarkup(btn))
     
@@ -433,7 +433,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         
     #     btn.append(        [
     #             InlineKeyboardButton(
-    #                 text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ​↭",
+    #                 text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ↭",
     #                 callback_data=f"fl#homepage#search#{key}"
     #                 ),
     #         ])
@@ -487,7 +487,7 @@ async def seasons_cb_handler(client: Client, query: CallbackQuery):
     )
     req = query.from_user.id
     offset = 0
-    btn.append([InlineKeyboardButton(text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ​↭", callback_data=f"next_{req}_{key}_{offset}")])
+    btn.append([InlineKeyboardButton(text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ↭", callback_data=f"next_{req}_{key}_{offset}")])
 
     await query.edit_message_reply_markup(InlineKeyboardMarkup(btn))
 
@@ -595,7 +595,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
 
     btn.append([
             InlineKeyboardButton(
-                text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ​↭",
+                text="↭ ʙᴀᴄᴋ ᴛᴏ ꜰɪʟᴇs ↭",
                 callback_data=f"next_{req}_{key}_{offset}"
                 ),
     ])
@@ -1837,9 +1837,6 @@ async def auto_filter(client, msg, spoll=False):
     #         InlineKeyboardButton("Sᴛᴀʀᴛ Bᴏᴛ", url=f"https://telegram.me/{temp.U_NAME}"),
     #         InlineKeyboardButton("𝐒𝐞𝐧𝐝 𝐀𝐥𝐥", callback_data=f"send_fall#{pre}#{message.chat.id}-{message.id}#{0}")
     #     ])
-        btn.insert(0, [
-            InlineKeyboardButton("⫸---⫸----- 𝙎𝙚𝙣𝙙 𝘼𝙡𝙡 𝙁𝙞𝙡𝙚𝙨 -----⫷---⫷", callback_data=f"sendfiles#{key}")
-        ])
     # if ENABLE_TUTORIAL == True:
     #     btn.insert(0, [
     #     InlineKeyboardButton("Hᴏᴡ ᴛᴏ Dᴏᴡɴʟᴏᴀᴅ⚡", url=await get_tutorial(message.chat.id))
