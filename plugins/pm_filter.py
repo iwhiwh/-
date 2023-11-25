@@ -439,10 +439,6 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.append([
             InlineKeyboardButton("𝗦𝗲𝗻𝗱 𝗔𝗹𝗹 𝗙𝗶𝗹𝗲𝘀", callback_data=f"sendfiles#{key}")
         ])
-        else:
-            btn.append([
-            InlineKeyboardButton("𝗦𝗲𝗻𝗱 𝗔𝗹𝗹 𝗙𝗶𝗹𝗲𝘀", callback_data=f"sendfiles#{key}")
-        ])
     # if ENABLE_SHORTLINK == True:
     # else:
     #     btn.insert(0, [
@@ -1896,10 +1892,6 @@ async def auto_filter(client, msg, spoll=False):
             btn.append(
                 [InlineKeyboardButton(text=f"1/{math.ceil(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="Next",callback_data=f"next_{req}_{key}_{offset}")]
             )
-            btn.append([
-            InlineKeyboardButton("𝗦𝗲𝗻𝗱 𝗔𝗹𝗹 𝗙𝗶𝗹𝗲𝘀", callback_data=f"sendfiles#{key}")
-        ])
-        else:
             btn.append([
             InlineKeyboardButton("𝗦𝗲𝗻𝗱 𝗔𝗹𝗹 𝗙𝗶𝗹𝗲𝘀", callback_data=f"sendfiles#{key}")
         ])
